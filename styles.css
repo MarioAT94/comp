@@ -1,0 +1,98 @@
+body {
+    background-color: black;
+    font-family: 'Outfit', sans-serif;
+    color: whitesmoke;
+    margin: 0;
+    background-image: url("./sci-fi.png");
+}
+
+h1 {
+    font-size: 100px;
+    text-align: center;  
+    font-weight: lighter;
+}
+
+h2 {
+    text-align: left;
+    color: rgb(250, 0, 0);
+    font-weight: lighter;
+}
+
+img {
+    width: 100%;    
+}
+
+p {
+    text-align: left;
+    word-spacing: 5px;
+    line-height: 25px;
+    font-size: 20px;
+    font-weight: lighter;
+}
+
+footer {
+    background-color: rgb(255, 64, 64);
+    text-align: center;
+    padding: 10px 0;   
+    margin: 30px 0 0 0;     
+}
+
+footer p {
+    font-size: 17px;
+}
+
+.bg-color {
+    background-color: rgba(71, 71, 70, 0.4);     
+}
+
+.top-5-container {
+    width: 100%;
+}
+
+.top-game {
+    width: 25%;
+    display: inline-block;
+    margin: 0 1%;
+    vertical-align: top;
+}
+
+#top-5 {
+    width: 75%;
+    margin: 3% auto;
+    text-align: center;
+    border: 2px solid rgb(250, 0, 0);
+    border-radius: 5%; 
+}
+
+#banner-heading {
+    /*background-image: url("./banner-5.jpg");*/
+    padding: 50px 0;
+    margin: 0 auto;  
+    text-transform: uppercase;
+    color: rgb(255, 64, 64);
+    font-family: 'Roboto Slab', serif;  
+}
+
+#componentes {
+    width: 75%;
+    text-align: center;
+    margin: 3% auto;
+    border: 2px solid rgb(250, 0, 0);
+    border-radius: 5%; 
+}
+
+.comp-container {
+    width: 100%;
+}
+
+.comp-heading {
+    font-family: 'Roboto Slab', serif;
+    color: rgb(255, 64, 64);
+    text-transform: uppercase;
+    background-color: rgba(71, 71, 70, 0.4);
+    padding: 50px 0;
+}
+
+.mobo {
+    height: 318px;
+}
