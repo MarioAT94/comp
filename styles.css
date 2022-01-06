@@ -4,6 +4,8 @@ body {
     color: whitesmoke;
     margin: 0;
     background-image: url("./sci-fi.png");
+    background-repeat: repeat;
+    background-attachment: fixed;
 }
 
 h1 {
@@ -95,4 +97,33 @@ footer p {
 
 .mobo {
     height: 318px;
+}
+
+@media only screen and (max-width: 600px) {
+    .top-game {
+        width: 95%;
+    }
+
+    h1 {
+        font-size: 2rem;        
+    }
+
+    #banner-heading {
+        padding: 10px;
+        margin-bottom: 5%;
+    }
+    
+    #componentes, #top-5 {
+        border-style: none;
+        border-radius: 0%;
+    }
+
+    p {
+        font-size: 1.2rem;
+    }
+
+    .comp-heading {
+        padding: 10px;
+        margin: 10% auto; 
+    } 
 }
